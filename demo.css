@@ -1,0 +1,54 @@
+h2{
+    color:palevioletred;
+    background-color:rgb(117,53,0);    
+}
+button{
+    color:black;
+    background-color:blueviolet;
+}
+p{
+    color:teal;
+   background-color:rgb(41, 31, 33);
+}
+body{
+    /*Background-color:#AA66DD*/
+    /*background-color:#000000;*/
+}
+h1{
+    color:#77AA99;
+}
+
+
+h1{
+    text-align: center;
+    font-weight:normal;
+    text-decoration: #dd5599 underline;
+    /*text-decoration: line-through;*/
+    font-size: 30px;
+
+} 
+p2{
+    font-weight: bold;
+    /*line-height: 5;*/
+    line-height: normal;
+    /*letter-spacing: 5px;*/
+}
+a{
+    text-decoration: none;
+    /*for remove underline in anchor tag*/
+}
+#about{
+    text-align:left;
+    text-decoration: red underline;
+    text-decoration-color:blue;
+    text-decoration:line-through;
+    /* text-decoration:none; */
+    text-decoration: underline;
+    
+   
+}
+
+
+
+
+

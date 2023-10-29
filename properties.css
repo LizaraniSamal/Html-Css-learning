@@ -1,0 +1,31 @@
+section {
+    height:300px;
+    width:300px;
+    background-color:#007acc;
+}
+#rgba {
+    height:200px;
+    width:200px;
+    background-color:rgba(255,255,255,0.3);
+    /*a stands for alpha channel and its range is 0 to 1. 0 means fully transparent 1 means not transparent */
+}
+#opacity {
+    height:70%;
+    width:70%;
+    background-color:#012601;
+    opacity:0.5;     /*same as alpha chanel(1=not transparent,0=fully transparent difference is
+                        all the contain in opacity will change)*/
+}
+
+/* font weight: normal,bold,bolder,lighter
+   font weight:100(lightest)-900(darkest)
+*/
+h2{
+    font-weight:lighter;
+    
+}
+#key{
+    font-weight:800;
+    text-transform:uppercase;   /* text-transfer:uppercase,lowercase,capitalize,none*/
+}
+

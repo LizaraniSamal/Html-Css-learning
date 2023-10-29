@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>forms demo</title>
+</head>
+<body>
+    <a href="./home.html">Home</a>
+    <h2>forms demo</h2>
+    <form action="">
+      <input type="text" placeholder="User name">  
+      <input type="email" placeholder="Enter your mail id">
+      <input type="password" placeholder="password">  
+      <input type="color">  
+      <input type="number" placeholder="Enter number">  
+    </form>
+
+
+    <form action="">
+        <p>
+            <label for="user name">Enter the user name</label>
+            <input id="user name" type="text" placeholder="user name">
+        </p>
+        <p>
+            <label for="email">Enter mail id</label>
+            <input id="email" type="text" placeholder="Enter mail id">
+        </p>
+        <p>
+            <label for="password">Enter your password</label>
+            <input id="pasword" type="text" placeholder="Enter the password">
+        </p>
+        <p>
+            <label for="number">Enter your roll_number</label>
+            <input id="number" type="number" placeholder="Enter the roll_number">
+        </p>
+        <br><br>
+
+        <h1>Types of input given below:</h1>
+        <h3>select your favourite subject</h3>
+        
+            <input  type="checkbox" values="math" name="subject" id="101">
+            <label for="math">Math</label>
+          <br>
+           <input  type="checkbox" values="phy" name="subject" id="102">
+            <label for="phy">physics</label>
+            <br>       <!--br is used for next line-->
+           <input  type="checkbox" values="chemistry" name="subject" id="103">
+            <label for="chemistry">chemistry</label>
+            <br>
+            <input type="checkbox" values="computer science" name="subject" id="104">
+            <label for="computer science">computer science</label>
+ </form>
+
+
+ <form>    <!--choose any one -->
+    <h3>choose your size</h3>
+    <label for="xs">XS</label>
+    <input type="radio" name="size" id="xs">
+    <br>
+    <label for="s">S</label>
+    <input type="radio" name="size" id="s">
+    <br>
+    <label for="m">M</label>
+    <input type="radio" name="size" id="m">
+    <br>
+    <button >proceed</button>
+
+
+
+    <p>
+        <h3>select menu</h3>
+           <label for="meal">choose menu</label>
+           <select name="meal" id="meal">
+             <option value="fish">fish</option>
+             <option value="veg">vegetariant</option>
+             <option value="mutton">mutton</option>
+            </select>
+    </p>
+    
+    <br>
+    <h3>set audio volume</h3>
+        <lable for="volume">Audio volume</lable>
+        <input type="range" id="cheese" min="0" max="10">
+
+    <br>   <!--textarea is not under input-->
+    <label for="request">Any Special Request?</label>
+    <br>
+    <textarea id="request" rows="5" cols="5"></textarea>
+ </form>
+ <form>
+    <label for="first name">Enter your first name</label>
+    <input type="text" name="first" id="first" required>
+    <P>
+        <label for="user name">User name</label>
+        <input type="text" name="user name" id="user name" minlength="5" maxlength="10">
+    </P>
+    <button>submit</button>
+ </form>
+</body>
+</html>

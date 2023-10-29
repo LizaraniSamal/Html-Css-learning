@@ -1,0 +1,111 @@
+
+/* now read about css selector*/  
+
+/* 1. universal selector*/
+   *{
+    color: red;
+   }
+/* 2. element selector*/
+
+button{
+    color:orange;
+    font-size: 20px;
+}
+h1,h2{
+    color: navy;
+}
+/*3. id selectort*/
+#signup{
+    background-color:blueviolet;
+    /* id helps the change of only one change without id everybutton color change*/
+    color:white;
+}     /*by the use of inline style color will be change rather than previous
+       color because inline style has more priority than id.
+     */
+
+
+/*4. class selector*/ 
+.green-heading{
+    color:green;
+}
+.text-middle{
+    text-align: center;
+}
+span{
+    color: blue;
+}
+
+/*5.descedant  selector*/ 
+/* by using this we can change all anchor tag*/
+/* a{
+    color:aqua;      
+    */
+footer nav ul li a {
+    color:#ff0303;      
+}
+head a {
+    color: pink;
+}
+
+/*6.adjacent selector*/
+input+button {
+    background-color:#117755;
+}
+h2+p {
+    color:maroon;
+}
+footer>a {
+    color:magenta;
+}
+/*attribute selector*/   /*doubt*/
+input {
+    color:greenyellow;     /*change all input*/
+}
+input[type="password"] {
+    color:#001122;
+}
+section {
+    color:#991100;
+}
+
+/*pseudo classes*/
+button:hover {
+    background-color: #ffff00;    /*all the button will change*/
+    color: #ff00ff;
+}
+.green-heading a:hover {
+    color:lightgray;
+}
+
+button:active {
+    background-color: #110066;
+}
+.green-heading button:active {
+    color: blueviolet;
+}
+
+.green-heading:nth-of-type(){       
+    background-color: #118855;
+}
+
+/*pseudo elements(::)*/
+h2::first-letter {
+    color:#991100;
+    font-size:50px;
+}
+p::first-line {
+    color:purple;
+}
+::selection {
+    color:rgb(255,0,0);
+}
+
+/*inline style*/
+/*it has more priority than id and class*/
+button{
+    background-color:#001122 !important;
+}
+/*by the use of inline style color will be change rather than previous
+       color because inline style has more priority than id but the use of important
+       all button color will change 
+     */
